@@ -61,7 +61,7 @@ const Container = document.querySelector(".row");
 
 for(let i=0; i<Team.length; i++){
 
-
+    //creo una variabile momentanea alla quale acceddo per ottenere informazioni presenti nel mio oggetto
     let val= Team[i] 
 
     //Creo l'elemento all'interno del mio file html
@@ -96,7 +96,7 @@ for(let i=0; i<Team.length; i++){
     //aggiungo la classe desiderata
     Title.classList.add("card-title");
 
-    //inserisco scritta all'interno del mio contenuto
+    //inserisco scritta all'interno del mio contenuto preso dall'oggetto
     Title.append(val.nome+" "+val.cognome);
 
     //inserisco numero all'interno del quadrato il tag h1
@@ -109,7 +109,7 @@ for(let i=0; i<Team.length; i++){
     //aggiungo la classe desiderata
     Text.classList.add("card-text");
 
-    //inserisco scritta all'interno del mio contenuto
+    //inserisco scritta all'interno del mio contenuto preso dall'oggetto
     Text.append(val.ruolo);
 
     //inserisco numero all'interno del quadrato il tag h1
