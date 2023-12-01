@@ -1,0 +1,1 @@
+Esercizio sull'utilizzo degli oggetti in javascript (creazione,inerimento,modifica).
