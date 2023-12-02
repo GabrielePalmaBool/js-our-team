@@ -58,6 +58,7 @@ const Team = [
 // dichiaro l'elemento che ha per classe box
 const Container = document.querySelector(".row");
 
+
 function Popolamento(){
 
     for(let i=0; i<Team.length; i++){
